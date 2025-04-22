@@ -47,7 +47,7 @@ def load_model(path='twitter_sentiment_analysis_model.sav'):
 vectorizer = load_vectorizer()
 model = load_model()
 
-# --- Preprocessing Function (copied from your notebook) ---
+# --- Preprocessing Function (copied from notebook) ---
 port_stemmer = PorterStemmer()
 
 def stemming(content):

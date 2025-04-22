@@ -1,7 +1,6 @@
 numpy
 pandas
 streamlit
-pickle
 re
 nltk
 nltk.corpus
