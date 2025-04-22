@@ -1,0 +1,9 @@
+numpy
+pandas
+streamlit
+pickle
+re
+nltk
+nltk.corpus
+nltk.stem.porter
+sklearn.feature_extraction.text
