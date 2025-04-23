@@ -2,6 +2,3 @@ numpy
 pandas
 streamlit
 nltk
-nltk.corpus
-nltk.stem.porter
-sklearn.feature_extraction.text
