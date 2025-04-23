@@ -5,7 +5,7 @@ from nltk.corpus import stopwords
 # --- Downloading NLTK Data ---
 try:
     nltk.data.find('corpora/stopwords')
-except nltk.downloader.DownloadError:
+except LookupError:
     nltk.download('stopwords')
 # --- Preprocessing Function (copied from notebook) ---
 port_stemmer = PorterStemmer()
